@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    button{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #7dc680;
+}
+.container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            background-color: #cde673;
+        }
+        h1,div {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>This will change color of background after every Second</h1>
+    </div>
+    <div><button id="start">Start</button>
+    <button id="stop">Stop</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
